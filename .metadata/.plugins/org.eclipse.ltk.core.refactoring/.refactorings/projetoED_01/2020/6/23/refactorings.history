@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Questao_02.NoArvore&apos; to &apos;No_Arvore&apos;&#x0D;&#x0A;- Original project: &apos;Projeto_ED_02&apos;&#x0D;&#x0A;- Original element: &apos;Questao_02.NoArvore&apos;&#x0D;&#x0A;- Renamed element: &apos;Questao_02.No_Arvore&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;NoArvore&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Questao_02{NoArvore.java[NoArvore" matchStrategy="1" name="No_Arvore" qualified="false" references="true" similarDeclarations="false" stamp="1590970468280" textual="false" version="1.0"/>
+</session>

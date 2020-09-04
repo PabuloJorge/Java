@@ -1,0 +1,15 @@
+package java2d;
+
+import javax.swing.JFrame;
+
+public class java2d_ex {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		JFrame f = new JFrame( "Exemplo Linhas, retângulos e ovais" );
+        f.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
+        f.setSize( 400, 210 ); // configura o tamanho do frame
+        f.setVisible( true ); // exibe o frame
+	}
+
+}
