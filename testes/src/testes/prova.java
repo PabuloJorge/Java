@@ -1,20 +1,32 @@
 package testes;
 
+import java.util.Scanner;
+
 public class prova {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Scanner leia = new Scanner(System.in);
+		
+		int t  = 0;
+		int c = 0;
+		int n = leia.nextInt();
 
-		String nome = "João";
-		imprimeNome("Empty");
-	}
-
-	public static void imprimeNome(String nome) {
-		if (!nome.isEmpty()) {
-			System.out.println("Tudo bem " + nome + "?");
+		if (n<2){
+		System.out.println("2");
 		} else {
-			System.out.println("O nome é " + nome + "?");
+		t = 1;
+		c = n;
+		while(c >0){
+		if ( c % 2 == 0){
+		t = t*c;
 		}
+		c--;
+		}
+		System.out.println(t);
+		}
+
 	}
+
 
 }
